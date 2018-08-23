@@ -1,15 +1,13 @@
-# UnityScreenSpaceReflections
-SSR - Screen Space Reflections post processing effect
+# BSave
+Serialization for save data! Classes and Texts.
 
-Just smack the script on your Unity Camera
+-Saving and Loading
+-Binary or JSON format
+-Optional Key Encryption
+-Optional ability to save to multiple splitted files
+-Can export/import class to a readable pretty-printed json
 
--Calculates per-pixel world position
+Example can be found in project
 
--Reflects the view direction over the G-Buffer normal and raytraces through the world position texture (64 samples, can be less). The tracing is noisy so there are no visible lines/layers
-
--Blurs and combines the result
-
-
-Blur amount and downsampling can be adjusted.
-
-![alt text](https://s17.postimg.cc/qtz1ro067/ssr.jpg)
+![alt text](https://s8.postimg.cc/3srbg5ymr/bsave_example.png)
+![alt text](https://s8.postimg.cc/6mugtmvo3/bsave_example2.png)
